@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interbatch Arts Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interbatch Arts Competition Scores</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Batch</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="scoreTable">
+                <tr>
+                    <td>Batch A</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Batch B</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Batch C</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="update-score">
+            <h2>Update Score</h2>
+            <input type="text" id="batchName" placeholder="Enter Batch Name (e.g., Batch A)">
+            <input type="number" id="newScore" placeholder="Enter New Score">
+            <button onclick="updateScore()">Update Score</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Interbatch Arts Competition</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
